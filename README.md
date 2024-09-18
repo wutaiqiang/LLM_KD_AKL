@@ -11,8 +11,11 @@ Conclusion:
 In the KD for LLMs, the mean-seeking and mode-seeking behaviors do not hold for forward KL (FKL) and reverse KL (RKL),respectively. Instead, they share the same optimization objective. Meanwhile, FKL focuses on the head part and RKL focuses on the tail part at the beginning epochs.
 ```
 
-Gif example:
-![scatter](scatter.gif "FKL_RKL_converage")
+Converage at begining epochs:
+![png](convergence_FRKL.png "convergence_FRKL")
+
+Total process in GIF:
+![gif](scatter.gif "FKL_RKL_converage")
 
 
 
